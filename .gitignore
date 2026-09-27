@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# checkpoints and predictions
+output/
+DBLP_*.txt
+ACM_*.txt
+IMDB_*.txt
+
+# ablation results
+ablation_*_results.json
+ablation_criterion_*.json
+
+# datasets (download separately)
+data/DBLP/
+data/ACM/
+data/IMDB/
+data/Freebase/
